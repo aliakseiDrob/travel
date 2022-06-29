@@ -35,6 +35,8 @@ button{
     font-family: "RedHatText";
     font-style: normal;
     font-weight: 500;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 .main-container {
@@ -88,10 +90,8 @@ button{
 .button-login {
     width: 103px;
     height: 41px;
-    border-radius: 10px;
     font-size: 16px;
     line-height: 21px;
-    cursor: pointer;
     border: none;
     outline: none;
 }
@@ -101,15 +101,6 @@ button{
     height: 41px;
     background: #0D606F;
     box-shadow: 0 0 14px 6px rgba(0, 0, 0, 0.25) inset, 0px 2px 3px rgba(13, 96, 111, 0.16);
-}
-
-.button-login:active {
-    width: 103px;
-    height: 41px;
-    background: #0D606F;
-    box-shadow:
-        0 0 14px 6px rgba(0, 0, 0, 0.25),
-        0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .main {
@@ -183,8 +174,6 @@ button{
     width: 228px;
     height: 59px;
     box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    cursor: pointer;
     font-size: 24px;
     line-height: 32px;
     margin: 18px;
@@ -200,10 +189,6 @@ button{
 .search-button:active {
     width: 228px;
     height: 59px;
-    background: #0D606F;
-    box-shadow:
-        0 0 14px 6px rgba(0, 0, 0, 0.25),
-        0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .steps {
@@ -307,10 +292,8 @@ button{
     position: absolute;
     width: 228px;
     height: 59px;
-    border-radius: 10px;
     font-size: 24px;
     line-height: 32px;
-    cursor: pointer;
     border: none;
     display: flex;
     align-items: center;
@@ -328,10 +311,6 @@ button{
 .button-dest:active {
     width: 228px;
     height: 59px;
-    background: #0D606F;
-    box-shadow:
-        0 0 14px 6px rgba(0, 0, 0, 0.25),
-        0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .stories {
@@ -440,10 +419,8 @@ h4 {
     position: absolute;
     width: 228px;
     height: 59px;
-    border-radius: 10px;
     font-size: 24px;
     line-height: 32px;
-    cursor: pointer;
     border: none;
     display: flex;
     align-items: center;
@@ -461,10 +438,6 @@ h4 {
 .button-stories:active {
     width: 228px;
     height: 59px;
-    background: #0D606F;
-    box-shadow:
-        0 0 14px 6px rgba(0, 0, 0, 0.25),
-        0px 2px 3px rgba(13, 96, 111, 0.16);
 }
 
 .footer {
