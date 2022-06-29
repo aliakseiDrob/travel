@@ -1,1 +1,35 @@
 https://www.figma.com/file/AEquj206gdlIZegU9Q3fio/Travel-(Copy)?node-id=0%3A1
+
+HAVE TO BE FIXED AND NOTES
+1. Все что ограничивается по ширине нужно ложить в контейнер
+2. Фиксированная верстка:
+    .container{
+    width: 1440px,
+    margin 0px auto //выставляем блок по центру}
+    <header>
+    <meta name="viewport" content="width=1440">
+    </header>
+    .body{
+    min-widh:1440px} // добавляем адаптивность
+    
+3. отзывчивая верстка:
+- ширину указываем не в фиксированных значениях, а в процентах
+- <header>
+    <meta name="viewport" content="width=device-width">
+    </header>
+       .container{
+    max-width: 1440px, // меняем
+    margin 0px auto //выставляем блок по центру}
+    .body{
+   /* min-widh:1440px*/} // убираем это
+4. 320 px минимальна ширина
+5. Адаптивная верстка
+- добавляем @media (max-width: 1440px) { 
+.container{
+max-width:970px;
+} } и т.д.
+- <992px -> планшеты, <768px -> телефоны
+6. Советики:
+   - <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0, maximum-scale=1.0">
+   - бургер меню
+   - скрывать некоторые блоки в спойлеры (выпадающее меню) на небольших экранах
